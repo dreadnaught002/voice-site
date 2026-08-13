@@ -1,0 +1,127 @@
+<html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap');
+
+html, body {
+	height: 100%;
+	margin: 0;
+	}
+	
+body {
+	display: flex;
+	flex-flow: column;
+	margin: 0;
+	
+	background: linear-gradient(to bottom,rgb(230,230,240),rgb(150,150,160));
+	}
+
+header, footer {
+	flex-shrink: 0;
+	height: 100px;
+	}
+
+footer { display: flex; }
+
+main {
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	
+	background-color: rgb(250,250,255);
+	filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.2));
+	}
+
+.headline {
+	width: fit-content;
+	margin: 0 auto 100px auto;
+	}
+
+.subtitle {
+	display: flex;
+	align-items: center;
+	margin-top: -10px;
+	}
+
+.sub-line {
+	flex: 1;
+	height: 1px;
+	background-color: #000; 
+	}
+
+.contact { margin-left: 35px; }
+
+.footnote {
+	width: fit-content;
+	margin: 0 auto 16px auto;
+	font-size: 0.9rem;
+	}
+
+
+
+.jost, .jost-bold {
+	font-family: "jost", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	}
+
+.jost { font-weight: 400; }
+.jost-bold { font-weight: 600; }
+
+h1 {
+	margin-top: 50px;
+	margin-bottom: 0;
+	font-size: 3.25rem;
+	}
+
+h2 {
+	margin: 0;
+	font-size: 2rem;
+	}
+
+h3 {
+	margin: 0;
+	font-size: 1.5rem;
+	}
+
+p {
+	margin: 0;
+	font-size: 1.1rem;
+	}
+
+
+</style>
+
+
+<body>
+
+<main>
+<div class="headline jost" style="text-align: center;">
+	<h1>STEVEN SCHNEIDER</h1>
+	<div class="subtitle">
+		<div class="sub-line"></div>
+		<h2 style="padding: 0 1rem;">Voice Actor</h2>
+		<div class="sub-line"></div>
+	</div>
+</div>
+
+<p>EMBED GOES HERE</p>
+
+<div style="margin-top: auto;">
+	<div class="contact" style="margin-bottom: 50px;">
+		<h3 class="jost-bold">CONTACT:</h3>
+		<p class="jost"zz>
+		Email: <a href="" target="_blank">steven@steven.steve</a><br />
+		Twitter: <a href="https://x.com/Coconut_Steve" target="_blank">@Coconut_Steve</a><br />
+		Discord: <a href="https://discord.com/users/195729493493547018" target="_blank">@CoconutSteve</a></p>
+	</div>
+
+	<p class="footnote jost" style="text-align: center;">
+	© 2026</p>
+</div>
+</main>
+
+</body>
+</html>
